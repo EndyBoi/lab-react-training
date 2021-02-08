@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const Greetings = (props) => {
-  let greet = '';
+  let greet = ''
 
   const divStyle = {
     display: 'flex',
@@ -10,14 +10,14 @@ const Greetings = (props) => {
     color: 'black',
     margin: '.8%',
     padding: '0.5%',
-  };
+  }
 
   if (props.lang === 'fr') {
-    greet = 'Bonjour';
+    greet = 'Bonjour'
   }
 
   if (props.lang === 'de') {
-    greet = 'Hallo';
+    greet = 'Hallo'
   }
 
   return (
@@ -26,9 +26,9 @@ const Greetings = (props) => {
         {greet} {props.children}
       </h3>
     </div>
-  );
-};
+  )
+}
 
-Greetings.propTypes = {};
+Greetings.propTypes = {}
 
-export default Greetings;
+export default Greetings

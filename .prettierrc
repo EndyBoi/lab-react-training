@@ -1,3 +1,8 @@
 {
   "singleQuote": true,
+  "semi": false,
+  "vueIndentScriptAndStyle": true,
+  "withNodeModules": true,
+  "jsxSingleQuote": true,
+  "resolveGlobalModules": true,
 }

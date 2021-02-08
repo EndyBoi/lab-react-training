@@ -1,8 +1,8 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const IdCard = (props) => {
-  const formattedBirth = props.birth.toString().substring(0, 15);
+  const formattedBirth = props.birth.toString().substring(0, 15)
 
   const divStyle = {
     display: 'flex',
@@ -10,7 +10,7 @@ const IdCard = (props) => {
     color: 'black',
     margin: '.8%',
     padding: '0.5%',
-  };
+  }
 
   return (
     <div style={divStyle}>
@@ -38,9 +38,9 @@ const IdCard = (props) => {
         </li>
       </ul>
     </div>
-  );
-};
+  )
+}
 
-IdCard.propTypes = {};
+IdCard.propTypes = {}
 
-export default IdCard;
+export default IdCard

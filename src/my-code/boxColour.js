@@ -1,5 +1,5 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const boxColour = (props) => {
   const divStyle = {
@@ -9,16 +9,16 @@ const boxColour = (props) => {
     margin: '.8%',
     padding: '0.5%',
     backgroundColor: 'rgb(' + props.r + ',' + props.g + ',' + props.b + ')',
-  };
+  }
   return (
     <div style={divStyle}>
       <h3>
         rgb({props.r},{props.g},{props.b})
       </h3>
     </div>
-  );
-};
+  )
+}
 
-boxColour.propTypes = {};
+boxColour.propTypes = {}
 
-export default boxColour;
+export default boxColour
